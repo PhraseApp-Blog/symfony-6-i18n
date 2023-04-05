@@ -1,0 +1,15 @@
+brand_name: 'Indie Games Blog'
+home.title: 'Welcome to Indie Games Blog'
+home.subtitle: 'Honest Indie game reviews since 2010'
+home.heading: 'Recent Game Reviews'
+app.visitors: "{visitors, plural,\n    =0 {There are no other visitors here.}\n    =1 {You are the only visitor here.}\n    other {There are # visitors here.}\n}"
+friend.update.status: "Hello, Your friend {friend} posted a new update.  {gender, select,\n  female {She}\n  male {He}\n  other {They}\n} changed their status from home to away.\n"
+today: 'Today is: {today, date, long}'
+read.time: 'Reading time: {reading, duration}'
+game.price: 'Price: {price, number, ::currency/USD}'
+German: German
+English: English
+Reviews: Reviews
+Games: 'Games'
+About: 'About'
+'Read more': 'Read more'

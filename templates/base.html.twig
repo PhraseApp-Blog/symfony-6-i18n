@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="{% if app.request.attributes.get('_locale') == 'ar' %}rtl{% else %}auto{% endif %}" lang="{{app.request.attributes.get('_locale')}}">
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
@@ -14,6 +14,12 @@
         {% endblock %}
     </head>
     <body>
+        {% include "Layout/header.html.twig" %}
+        <main class="flex bg-grey-lighter min-h-screen">
         {% block body %}{% endblock %}
+        </main>
+        <footer class="w-full h-16 bg-gray-900 static bottom-0">
+        {% block footer %}{% endblock %}
+        </footer>
     </body>
 </html>

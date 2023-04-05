@@ -1,0 +1,27 @@
+brand_name: 'Indie Games Blog'
+home.title: 'Willkommen beim Indie-Games-Blog'
+home.subtitle: 'Ehrliche Indie-Game-Reviews seit 2010'
+home.heading: 'Aktuelle Spielberichte'
+app.visitors: >-
+    {visitors, plural,
+        =0 {Es sind keine anderen Besucher hier.}
+        =1 {Sie sind der einzige Besucher hier.}
+        other {Hier sind # Besucher.}
+    }
+
+friend.update.status: > 
+    Hallo, {friend} hat ein neues Update gepostet. 
+    {gender, select,
+      female {Sie hat ihren Status geändert}
+      male {Er hat seinen Status geändert}
+      other {Sie haben ihren Status geändert}
+    }.
+game.price: 'Preis: {price, number, ::currency/EUR}'
+today: 'Heute ist: {today, date, long}'
+read.time: 'Lesezeit: {reading, duration}'
+German: 'Deutsch'
+English: 'Englisch'
+Reviews: 'Rezensionen'
+Games: 'Spiele'
+About: 'Über uns'
+'Read more': 'Weiterlesen'
