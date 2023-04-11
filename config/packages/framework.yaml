@@ -7,7 +7,6 @@ framework:
 
     set_locale_from_accept_language: true
     set_content_language_from_locale: true
-    enabled_locales: ['en', 'de']
 
     # Enables session support. Note that the session will ONLY be started if you read or write from it.
     # Remove or comment this section to explicitly disable session support.

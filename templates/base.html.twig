@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html dir="{% if app.request.attributes.get('_locale') == 'ar' %}rtl{% else %}auto{% endif %}" lang="{{app.request.attributes.get('_locale')}}">
+{% set locale = app.request.attributes.get('_locale') %}
+<html dir="{% if locale == 'ar' %}rtl{% else %}auto{% endif %}" lang="{{locale}}">
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>

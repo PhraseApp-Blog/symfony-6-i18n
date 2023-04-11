@@ -13,10 +13,3 @@ About: About
 'Read more': 'Read more'
 Arabic: __Arabic
 ' people online': '__ people online'
-app.visitors: >-
-    {visitors, plural,
-        =0 {There are no visitors here.}
-        =1 {There is only one visitor here.}
-        other {There are # visitors online.}
-    }
-'Hello {username}': '__Hello {username}'

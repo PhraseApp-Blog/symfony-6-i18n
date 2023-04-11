@@ -6,7 +6,7 @@ app.visitors: >-
     {visitors, plural,
         =0 {Es sind keine anderen Besucher hier.}
         =1 {Sie sind der einzige Besucher hier.}
-        other {Hier sind # Besucher.}
+        other {Hier sind # Besucher online.}
     }
 
 friend.update.status: > 

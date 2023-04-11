@@ -15,4 +15,11 @@ class ReviewsController extends AbstractController
 
         return $this->render('reviews.html.twig', []);
     }
+
+    #[Route('/reviews/{_locale}', name: 'reviewz')]
+    public function review(TranslatorInterface $translator): Response
+    {   
+
+        return $this->render('reviews.html.twig', []);
+    }
 }

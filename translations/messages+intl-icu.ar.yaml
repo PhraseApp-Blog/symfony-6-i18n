@@ -1,0 +1,9 @@
+app.visitors: >-
+    {visitors, plural,
+        zero {لم يزرنا أحد}
+        one {زارنا شخص واحد}
+        two {زارنا شخصان}
+        few {زارنا # أشخاص}
+        many {زارنا # شخصًا}
+        other {زارنا # شخص}
+    }

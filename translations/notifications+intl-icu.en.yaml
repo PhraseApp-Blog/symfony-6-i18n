@@ -1,3 +1,3 @@
-notification.success.title: Update Success
-notification.success.heading: Update Success
-notification.success.content: The content was updated successfully
+notification.success.title: 'Update Success'
+notification.success.heading: 'Update Success'
+notification.success.content: 'The content was updated successfully'

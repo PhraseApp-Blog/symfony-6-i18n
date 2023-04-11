@@ -23,12 +23,15 @@ class HomeController extends AbstractController
 
         $form = $this->createForm(ReviewType::class, $review);
         
+        $translator->trans('Hello {username}', ['username' => 'Alex']); 
         $messages = [
             'title' => $translator->trans('home.title'),
             'subtitle' => $translator->trans('home.subtitle'),
             'heading' => $translator->trans('home.heading'),
-            'visitors' => $translator->trans('app.visitors', ['visitors' => $visitorsCount, 'Username' => 'Theo']),
-            'game.price' => $translator->trans('game.price', ['price' => 60])
+            'visitors' => $translator->trans(
+                'app.visitors', ['%visitors%' => 0]),
+            'game.price' => $translator->trans('game.price', ['price' => 60]),
+            'read.time' => $translator->trans('read.time', ['reading' => 10000]),
         ];
 
         $banner = new NotificationBanner(
